@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>HIKMICRO Online Shop by SENSOR GmbH – thermal cameras, service and advice</title>
+  <meta name="description" content="HIKMICRO Online Shop by SENSOR GmbH: thermal imaging cameras for hunting, buildings and industry. Business customers pay on invoice. Sold, calibrated and serviced in Mönchengladbach, shipped across Europe.">
+  <meta name="theme-color" content="#1b1b1e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@300;400&family=Stack+Sans+Text:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/panel-outdoor.jpg">
+  <link rel="stylesheet" href="assets/css/main.css?v=81">
+  <script type="importmap">
+    { "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+  <script src="assets/js/i18n.js?v=81"></script>
+</head>
+<body>
+  <!-- ironbow gradient map: turns any photo into a thermal-looking image -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <filter id="ironbow" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="0.3 0.59 0.11 0 0  0.3 0.59 0.11 0 0  0.3 0.59 0.11 0 0  0 0 0 1 0"/>
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="0.02 0.13 0.36 0.66 0.85 0.94 0.98 0.99 1"/>
+        <feFuncG type="table" tableValues="0.01 0.04 0.05 0.07 0.14 0.35 0.65 0.89 1"/>
+        <feFuncB type="table" tableValues="0.07 0.31 0.47 0.42 0.18 0.10 0.12 0.48 1"/>
+      </feComponentTransfer>
+    </filter>
+  </svg>
+  <header class="nav">
+    <a class="logo" href="./" data-reset aria-label="HIKMICRO Online Shop by SENSOR GmbH, back to the start">
+      <img src="assets/brand/hikmicro-logo.svg" width="170" height="40" alt="HIKMICRO">
+      <span class="logo-sub" data-no-i18n>Online Shop · powered by SENSOR GmbH</span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="./#outdoor" data-go-area="outdoor">Outdoor</a></li>
+        <li><a href="./#building" data-go-area="building">Building</a></li>
+        <li><a href="./#industry" data-go-area="industry">Industrial</a></li>
+        <li><a href="./#fire" data-go-area="fire">Fire service</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="academy.html">Academy</a></li>
+        <li><a href="#about">About us</a></li>
+      </ul>
+      <span class="nav-glide" aria-hidden="true"></span>
+    </nav>
+    <div class="nav-end">
+      <div class="lang" data-lang-switch data-no-i18n>
+        <button class="lang-btn" type="button" data-lang-btn aria-haspopup="true" aria-expanded="false" aria-label="Language"><span data-lang-current>EN</span><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+        <div class="lang-menu" data-lang-menu hidden>
+          <a href="#" data-lang="en" lang="en"><b>EN</b>English</a>
+          <a href="#" data-lang="de" lang="de"><b>DE</b>Deutsch</a>
+          <a href="#" data-lang="nl" lang="nl"><b>NL</b>Nederlands</a>
+          <a href="#" data-lang="fr" lang="fr"><b>FR</b>Français</a>
+        </div>
+      </div>
+      <button class="nav-quote" type="button" data-open-form="quote">Request a quote</button>
+      <a class="nav-cart" href="#cart" aria-label="Cart, 0 items">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Zm3 0V6a3 3 0 0 1 6 0v1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Start: who are you buying for, then where will you use it -->
+    <section class="start" id="start" aria-labelledby="start-title" data-chooser>
+      <div class="panels" data-panels>
+        <button class="panel" type="button" data-area="outdoor">
+          <img class="panel-photo" src="assets/img/panel-outdoor.jpg" width="1600" height="1600" alt="">
+          <span class="panel-heat" aria-hidden="true"><img class="panel-heat-img" src="assets/img/panel-outdoor.jpg" width="1600" height="1600" alt=""></span>
+          <span class="panel-mark" aria-hidden="true"><span class="panel-temp">–</span></span>
+          <span class="panel-text">
+            <span class="demo-tag">Demo</span>
+            <span class="panel-title">Outdoor</span>
+            <span class="panel-sub">Hunting, wildlife and nature</span>
+          </span>
+          <span class="panel-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+        </button>
+        <button class="panel" type="button" data-area="building">
+          <img class="panel-photo" src="assets/img/scene-building.jpg" width="1024" height="682" alt="">
+          <span class="panel-heat" aria-hidden="true"><img class="panel-heat-img" src="assets/img/scene-building.jpg" width="1024" height="682" alt=""></span>
+          <span class="panel-mark" aria-hidden="true"><span class="panel-temp">–</span></span>
+          <span class="panel-text">
+            <span class="panel-title">Building</span>
+            <span class="panel-sub">Heat loss, moisture and HVAC</span>
+          </span>
+          <span class="panel-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+        </button>
+        <button class="panel" type="button" data-area="industry">
+          <img class="panel-photo" src="assets/img/scene-industry.jpg" width="1920" height="1280" alt="">
+          <span class="panel-heat" aria-hidden="true"><img class="panel-heat-img" src="assets/img/scene-industry.jpg" width="1920" height="1280" alt=""></span>
+          <span class="panel-mark" aria-hidden="true"><span class="panel-temp">–</span></span>
+          <span class="panel-text">
+            <span class="panel-title">Industry</span>
+            <span class="panel-sub">Electrical, mechanical and process</span>
+          </span>
+          <span class="panel-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+        </button>
+        <button class="panel" type="button" data-area="fire">
+          <img class="panel-photo" src="assets/img/scene-fire.jpg" width="1920" height="1369" alt="">
+          <span class="panel-heat" aria-hidden="true"><img class="panel-heat-img" src="assets/img/scene-fire.jpg" width="1920" height="1369" alt=""></span>
+          <span class="panel-mark" aria-hidden="true"><span class="panel-temp">–</span></span>
+          <span class="panel-text">
+            <span class="panel-title">Fire service</span>
+            <span class="panel-sub">See through smoke, find people and embers</span>
+          </span>
+          <span class="panel-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+        </button>
+      </div>
+
+      <p class="start-where" data-where>
+        <span>Where will you use it?</span>
+        <span class="start-where-buyer"><span data-where-buyer>Business</span> <button type="button" data-rebuyer>Change</button></span>
+      </p>
+
+      <div class="buyer" data-buyer-step>
+        <h1 id="start-title" class="buyer-title">Thermal imaging by HIKMICRO.</h1>
+        <p class="buyer-q">Who are you buying for?</p>
+        <div class="buyer-options">
+          <button class="buyer-option" type="button" data-buyer="business">
+            <span class="buyer-option-title">My business</span>
+            <span class="buyer-option-text">Prices excl. VAT, pay on invoice</span>
+          </button>
+          <button class="buyer-option" type="button" data-buyer="private">
+            <span class="buyer-option-title">Myself</span>
+            <span class="buyer-option-text">Prices incl. VAT, PayPal</span>
+          </button>
+        </div>
+      </div>
+
+      <ul class="start-legal">
+        <li><a href="#impressum">Impressum</a></li>
+        <li><a href="#datenschutz">Datenschutz</a></li>
+        <li><a href="#agb">AGB</a></li>
+        <li><button type="button" data-cookie-settings>Cookies</button></li>
+      </ul>
+    </section>
+
+    <!-- The chosen area: a wall of cameras -->
+    <section class="wall" id="wall" aria-labelledby="wall-title" data-areasection hidden>
+      <div class="wall-bar">
+        <p><span data-summary-buyer>Business</span> · <span data-summary-area>Industry</span></p>
+        <button type="button" data-reset>Change</button>
+      </div>
+      <div class="wall-head">
+        <div>
+          <h2 id="wall-title" class="wall-title" data-wall-title>Industrial cameras</h2>
+          <p class="wall-lead" data-wall-lead></p>
+          <p class="wall-demo" data-wall-demo hidden><span class="demo-tag">Demo</span> The outdoor range is on its way. The cameras and prices below are examples for now.</p>
+        </div>
+        <p class="wall-terms" data-buyer-terms></p>
+      </div>
+      <div class="res-wrap" id="resolution">
+        <div class="res-head">
+          <h3 class="res-title">How sharp do you need it?</h3>
+          <p class="res-lead">Move the slider: the same picture at the resolution of each camera. More pixels mean more detail, and you can stand further away.</p>
+        </div>
+      <div class="res" data-res>
+          <figure class="res-view">
+            <canvas class="res-canvas" data-res-canvas width="1280" height="960" aria-label="The same scene in thermal at the chosen resolution"></canvas>
+            <p class="res-see" data-res-see></p>
+            <div class="res-zoom" aria-hidden="true"><canvas data-res-zoom width="320" height="320"></canvas><span data-res-zoomcap>Zoom</span></div>
+            <figcaption class="res-cap" data-res-cap>Simulated thermal picture</figcaption>
+          </figure>
+          <div class="res-panel">
+            <p class="res-kicker">Thermal resolution</p>
+            <p class="res-value" data-res-value>256 × 192</p>
+            <p class="res-pixels" data-res-pixels>49,152 measuring points</p>
+            <label class="sr-only" for="res-range">Choose a resolution</label>
+            <input class="res-range" id="res-range" type="range" min="0" max="6" step="1" value="2" data-res-range>
+            <div class="res-ticks" aria-hidden="true" data-res-ticks></div>
+            <p class="res-good" data-res-good></p>
+            <p class="res-detail" data-res-detail></p>
+            <p class="res-cams" data-res-cams></p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="shelves" data-shelves></ul>
+
+      <div class="compare" id="compare" data-compare hidden>
+        <div class="compare-head">
+          <h3 class="compare-title">Side by side</h3>
+          <button class="compare-clear" type="button" data-compare-clear>Clear</button>
+        </div>
+        <div class="compare-scroll"><table class="compare-table" data-compare-table></table></div>
+      </div>
+    </section>
+
+    <!-- See it in thermal -->
+    <section class="thermal-band" id="see" aria-labelledby="see-title" data-seesection hidden>
+      <div class="hero-stage" data-stage>
+        <div class="hero-media" data-media>
+          <img class="scene-photo" data-photo="outdoor" src="assets/img/scene-outdoor.jpg" width="1920" height="1768" alt="A roe deer at the edge of a forest at dusk">
+          <img class="scene-photo" data-photo="industry" src="assets/img/scene-industry.jpg" width="1920" height="1280" alt="An old electrical switchboard with ceramic fuses">
+          <img class="scene-photo" data-photo="fire" data-src="assets/img/scene-fire.jpg" width="1920" height="1369" alt="A firefighter with a hose in thick smoke next to charred wood">
+          <img class="scene-photo" data-photo="building" src="assets/img/scene-building.jpg" width="1024" height="682" alt="A two-storey house at dusk with lit windows">
+          <img class="scene-photo" data-photo="front" data-src="assets/img/outside/front.jpg" width="1600" height="1091" alt="A two-storey house at dusk with a garage and lit windows">
+          <img class="scene-photo" data-photo="solar" data-src="assets/img/outside/solar.jpg" width="1600" height="1068" alt="Solar panels on a red tiled roof in the sun">
+          <img class="scene-photo" data-photo="heatpump" data-src="assets/img/outside/heatpump.jpg" width="1600" height="1067" alt="A heat pump in a garden in front of a brick wall">
+          <img class="scene-photo" data-photo="kitchen" data-src="assets/img/rooms/kitchen.jpg" width="1600" height="1068" alt="A bright kitchen with a window, a fridge and a hob">
+          <img class="scene-photo" data-photo="bathroom" data-src="assets/img/rooms/bathroom.jpg" width="1600" height="1068" alt="A bathroom with a window, a radiator, a bath and a black and white tiled floor">
+          <img class="scene-photo" data-photo="living" data-src="assets/img/rooms/living.jpg" width="1600" height="1172" alt="A living room with a window, a radiator and a sofa">
+          <div class="lens" data-lens aria-hidden="true"><canvas class="thermal" data-thermal></canvas></div>
+          <div class="readout" data-readout aria-hidden="true"><span class="readout-dot"></span><span class="readout-temp" data-temp>–</span></div>
+          <div class="find-pins" data-pins></div>
+          <div class="device" data-device aria-hidden="true">
+            <img class="device-body" src="assets/img/camera-hand.webp" width="480" height="1207" alt="">
+            <div class="device-screen">
+              <canvas class="thermal" data-device-thermal></canvas>
+              <span class="device-box" data-device-box><em></em></span>
+              <span class="device-cross"></span>
+              <span class="device-temp" data-device-temp>–</span>
+              <span class="device-spot is-hot" data-spot-hot><em></em></span>
+              <span class="device-spot is-cold" data-spot-cold><em></em></span>
+              <span class="device-scale"><b data-scale-max>–</b><i></i><b data-scale-min>–</b></span>
+              <span class="device-mode">Ironbow · ε 0.95</span>
+              <span class="device-mark">HIKMICRO</span>
+            </div>
+          </div>
+          <div class="find-card" data-find-card aria-live="polite">
+            <span class="find-kind" data-find-kind></span>
+            <b class="find-title" data-find-title></b>
+            <span class="find-text" data-find-text></span>
+          </div>
+        </div>
+        <div class="hero-scrim" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <h2 id="see-title" class="hero-title" data-area-title>Find the fault before it fails.</h2>
+          <p class="hero-lead" data-area-lead></p>
+          <div class="rooms" data-rooms hidden>
+            <div class="seg" role="group" aria-label="Where to look">
+              <button type="button" data-place="outside" aria-pressed="true">Outside</button>
+              <button type="button" data-place="inside" aria-pressed="false">Inside</button>
+            </div>
+            <div class="seg seg-rooms" role="group" aria-label="Outside" data-out-list>
+              <button type="button" data-room="front" aria-pressed="true">Front</button>
+              <button type="button" data-room="solar" aria-pressed="false">Solar roof</button>
+              <button type="button" data-room="heatpump" aria-pressed="false">Heat pump</button>
+            </div>
+            <div class="seg seg-rooms" role="group" aria-label="Room" data-room-list hidden>
+              <button type="button" data-room="kitchen" aria-pressed="false">Kitchen</button>
+              <button type="button" data-room="bathroom" aria-pressed="false">Bathroom</button>
+              <button type="button" data-room="living" aria-pressed="false">Living room</button>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#quote" data-buyer-cta>Request a quote</a>
+          </div>
+        </div>
+        <div class="hunt" data-hunt hidden>
+          <span class="hunt-dots" data-hunt-dots></span>
+          <span class="hunt-count" data-hunt-count></span>
+          <button class="hunt-next" type="button" data-hunt-next>Show me one</button>
+        </div>
+        <p class="scene-caption" data-caption></p>
+      </div>
+    </section>
+
+    <!-- Service by SENSOR: what wins against the big brands -->
+    <section class="svc" id="services" aria-labelledby="svc-title">
+      <div class="svc-head">
+        <h2 id="svc-title" class="svc-title">We look after your camera.</h2>
+        <p class="svc-lead">SENSOR has sold and serviced thermal cameras in Mönchengladbach for years. Every camera gets its own SENSOR code, so calibration, repairs and downloads are one click away.</p>
+      </div>
+
+      <div class="svc-body">
+        <div class="svc-calc" aria-labelledby="calc-title">
+          <h3 id="calc-title" class="svc-calc-title">When is your next calibration?</h3>
+          <p class="svc-calc-text">Thermal cameras should be calibrated every two years to measure correctly.</p>
+          <label class="svc-calc-label" for="calc-date">Last calibration or purchase date</label>
+          <input class="svc-calc-input" id="calc-date" type="date" data-calc-date>
+          <div class="svc-calc-result" data-calc-result aria-live="polite">
+            <p class="svc-calc-due" data-calc-due>Pick a date</p>
+            <p class="svc-calc-note" data-calc-note>We will show you when it is due.</p>
+          </div>
+          <button class="btn btn-primary" type="button" data-open-form="calibration">Book a calibration</button>
+        </div>
+
+        <ul class="svc-list">
+          <li class="svc-item">
+            <button class="svc-row" type="button" data-open-form="calibration">
+              <span class="svc-name">Calibration</span>
+              <span class="svc-desc">Every two years, with certificate. We send a reminder when it is due.</span>
+              <span class="svc-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            </button>
+          </li>
+          <li class="svc-item">
+            <button class="svc-row" type="button" data-open-form="repair">
+              <span class="svc-name">Repair &amp; returns</span>
+              <span class="svc-desc">Something wrong? Tell us the serial number and the problem, we take it from there.</span>
+              <span class="svc-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            </button>
+          </li>
+          <li class="svc-item">
+            <button class="svc-row" type="button" data-open-form="rental">
+              <span class="svc-name">Rental</span>
+              <span class="svc-desc">A camera for one job or one season, ready to use and calibrated.</span>
+              <span class="svc-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            </button>
+          </li>
+          <li class="svc-item">
+            <button class="svc-row" type="button" data-open-form="used">
+              <span class="svc-name">Used cameras</span>
+              <span class="svc-desc">Checked and recalibrated by us. Or sell us the camera you no longer need.</span>
+              <span class="svc-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            </button>
+          </li>
+          <li class="svc-item">
+            <button class="svc-row" type="button" data-open-form="instalments">
+              <span class="svc-name">Pay in instalments</span>
+              <span class="svc-desc">Spread the cost of a larger camera over several months.</span>
+              <span class="svc-go" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Help choosing: resolution first, then the questions people ask us -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="faq-head">
+        <h2 id="faq-title" class="faq-title">Which camera is right for you?</h2>
+        <p class="faq-lead">The question we hear most. Start with resolution: it decides how much detail you see, and how far away you can stand. Then the answers to what customers ask us every day.</p>
+      </div>
+
+      <p class="faq-res-link"><a href="#resolution" data-go-res>Try the resolution guide at the top of the camera range</a></p>
+
+      <div class="faq-list">
+        <details class="faq-item" name="faq">
+          <summary>Which camera for checking my house?</summary>
+          <p>For a quick check at home, 256 × 192 is enough: the Pocket2, or the Mini X on your phone. For energy audits and reports for customers, choose 384 × 288 or more, for example the M31 or G31.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Which camera for electrical and industrial inspection?</summary>
+          <p>The M series is made for daily rounds, from the M11W to the M60 with 640 × 480. The G series adds a laser range finder, GPS and interchangeable lenses. The SP series is the professional class with viewfinder and tilting screen, up to the SP120H with 1280 × 1024.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>What do H and W in the name mean?</summary>
+          <p><b>H</b> stands for high temperature: the G41H and G61H measure up to 2000 °C, the SP40H, SP60H, SP100H and SP120H up to 2200 °C, for furnaces, glass and metal. <b>W</b> (M11W, M20W) means focus free with a wide lens: point and shoot. Models without W have manual focus and a narrower lens for more detail at a distance.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Can a thermal camera see through glass or walls?</summary>
+          <p>No. Glass reflects heat like a mirror, so on a window you see a reflection, not what is behind it. On a wall you see the surface temperature, and that surface tells you what happens inside: a hidden pipe, missing insulation or damp. Try it above in the bathroom.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>What is thermal sensitivity (NETD)?</summary>
+          <p>The smallest temperature difference the camera can show. Lower is better. Below 40 mK shows differences of 0.04 °C, enough for most work. Below 20 mK, as on the SP100H and SP120H, shows the faintest contrasts, such as early damp.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Wide or narrow lens?</summary>
+          <p>A wide lens sees a whole wall from close up, ideal inside rooms. A narrow lens shows more detail far away, such as roofs or overhead lines. The G and SP series take interchangeable lenses, so one camera does both.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>How often does a camera need calibration?</summary>
+          <p>Every two years, so it keeps measuring correctly. We calibrate in our own technical lab and remind you when it is due.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Can my company pay on invoice?</summary>
+          <p>Yes. Businesses see prices excluding VAT and pay on invoice after we check the order. Private customers pay with PayPal or prepayment.</p>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Can I rent a camera first?</summary>
+          <p>Yes, for one job or a whole season, calibrated and ready to use. Tell us what you want to inspect and we suggest the right model.</p>
+        </details>
+      </div>
+      <p class="faq-more">Still not sure? <button type="button" class="faq-ask" data-chat-open>Ask our assistant</button> or <button type="button" class="faq-ask" data-open-form="contact">write to a thermal expert</button>.</p>
+    </section>
+
+    <!-- About SENSOR -->
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about-head">
+        <h2 id="about-title" class="about-title">Measuring experts. Since 1990.</h2>
+        <p class="about-lead">SENSOR GmbH brings two families of measuring experts together. We sell HIKMICRO thermal cameras, and we set them up, calibrate and repair them in our own technical lab, so you always talk to people who know the camera inside out.</p>
+      </div>
+      <figure class="about-team">
+        <img src="assets/img/about/team-2025.webp" width="1049" height="823" loading="lazy" alt="The SENSOR team in front of the office in 2025">
+        <figcaption>The SENSOR team, 2025</figcaption>
+      </figure>
+      <ol class="about-time">
+        <li><span class="about-year">1990</span><p>Hans Giezenberg founds Sensor Partners in Drunen, the Netherlands, and builds it into one of the leading names in measuring technology there.</p></li>
+        <li><span class="about-year">2007</span><p>Heiner Roeder founds ROEDER Mess-System-Technik in Viersen.</p></li>
+        <li><span class="about-year">2018</span><p>Both join forces as SENSOR GmbH and take over Trauthoff GmbH, specialists in thermal cameras for ships and yachts.</p></li>
+        <li><span class="about-year">Today</span><p>Thermal cameras, calibration and repair, training, and our own developments in hardware, software and AI, such as the MedCamAI research project.</p></li>
+      </ol>
+      <ul class="about-people">
+        <li><img src="assets/img/about/hans-giezenberg.webp" width="300" height="300" loading="lazy" alt=""><b>Hans Giezenberg</b><span>Managing director</span></li>
+        <li><img src="assets/img/about/heiner-roeder.webp" width="486" height="486" loading="lazy" alt=""><b>Heiner Roeder</b><span>Sales and applications</span></li>
+        <li><img src="assets/img/about/julia-bunjes.webp" width="640" height="640" loading="lazy" alt=""><b>Julia Bunjes</b><span>Office management</span></li>
+      </ul>
+      <figure class="about-refs">
+        <figcaption>Companies and public bodies that trust our measuring know-how</figcaption>
+        <img src="assets/img/about/references.webp" width="2000" height="712" loading="lazy" alt="Logos of customers, among them Siemens, Bosch, Deutsche Bahn, Fraunhofer, Bundeswehr, Mercedes-Benz and TÜV Rheinland">
+      </figure>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-head">
+        <h2 id="contact-title" class="contact-title">Talk to a thermal expert.</h2>
+        <p class="contact-lead">Questions about a camera, a quote for your team or help with an order: we answer in English, German and French.</p>
+        <button class="btn btn-primary" type="button" data-open-form="contact">Write to us</button>
+      </div>
+      <ul class="contact-ways">
+        <li>
+          <a class="contact-way" href="tel:+4921614773973">
+            <span class="contact-kind">Call</span>
+            <span class="contact-value">+49 2161 477 39 73</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-way" href="#whatsapp" data-whatsapp>
+            <span class="contact-kind">WhatsApp</span>
+            <span class="contact-value">Number to follow</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-way" href="mailto:info@sensorgmbh.de">
+            <span class="contact-kind">Email</span>
+            <span class="contact-value">info@sensorgmbh.de</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- One drawer, a different form for each service -->
+  <dialog class="drawer" data-drawer aria-labelledby="drawer-title">
+    <form class="drawer-form" data-drawer-form novalidate>
+      <div class="drawer-head">
+        <h2 id="drawer-title" class="drawer-title" data-drawer-title>Book a calibration</h2>
+        <button class="drawer-close" type="button" data-drawer-close aria-label="Close">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        </button>
+      </div>
+      <p class="drawer-intro" data-drawer-intro></p>
+      <div class="drawer-fields" data-drawer-fields></div>
+      <div class="drawer-foot">
+        <button class="btn btn-primary" type="submit" data-drawer-submit>Send</button>
+        <p class="drawer-note">We answer within one working day.</p>
+      </div>
+      <div class="drawer-done" data-drawer-done hidden>
+        <p class="drawer-done-title">Thank you.</p>
+        <p data-drawer-done-text>Your request is in. In the finished shop it goes straight to the SENSOR service team.</p>
+        <button class="btn btn-light" type="button" data-drawer-close>Close</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="compare-bar" data-compare-bar hidden>
+    <span data-compare-count>Two cameras selected</span>
+    <a class="btn btn-primary btn-small" href="#compare" data-compare-go>Compare</a>
+  </div>
+
+  <canvas class="wall-canvas" data-wall-canvas aria-hidden="true"></canvas>
+
+  <!-- Assistant (demo: prepared answers, a real AI can follow in the finished shop) -->
+  <button class="chat-fab" type="button" data-chat-open aria-controls="chat" aria-expanded="false">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 3 13.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 8.5h8M8 11.5h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <span>Ask us</span>
+  </button>
+  <section class="chat" id="chat" data-chat aria-labelledby="chat-title" hidden>
+    <header class="chat-head">
+      <div>
+        <h2 id="chat-title" class="chat-title">SENSOR assistant</h2>
+        <p class="chat-sub"><span class="demo-tag">Demo</span> Knows every camera we sell, service and ordering</p>
+      </div>
+      <button class="chat-close" type="button" data-chat-close aria-label="Close the assistant">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      </button>
+    </header>
+    <div class="chat-log" data-chat-log aria-live="polite"></div>
+    <div class="chat-chips" data-chat-chips></div>
+    <form class="chat-form" data-chat-form>
+      <label class="sr-only" for="chat-input">Your question</label>
+      <input class="chat-input" id="chat-input" type="text" autocomplete="off" placeholder="Ask about cameras, resolution, service…" data-chat-input>
+      <button class="chat-send" type="submit" aria-label="Send">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      </button>
+    </form>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/brand/hikmicro-logo.svg" width="170" height="40" alt="HIKMICRO">
+        <p>HIKMICRO distributor and service partner: SENSOR GmbH, Hermann-Hesse-Str. 16a, 41068 Mönchengladbach, Germany.</p>
+      </div>
+      <nav class="foot-cols" aria-label="Footer">
+        <div>
+          <h2 class="foot-h">Cameras</h2>
+          <ul>
+            <li><a href="./#outdoor" data-go-area="outdoor">Outdoor &amp; hunting</a></li>
+            <li><a href="./#building" data-go-area="building">Building</a></li>
+            <li><a href="./#industry" data-go-area="industry">Industry</a></li>
+            <li><a href="./#fire" data-go-area="fire">Fire service</a></li>
+            <li><a href="#accessories">Batteries &amp; lenses</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="foot-h">Service</h2>
+          <ul>
+            <li><a href="./#services">Calibration</a></li>
+            <li><a href="./#services">Repair &amp; returns</a></li>
+            <li><a href="./#services">Rental</a></li>
+            <li><a href="academy.html">SENSOR Academy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="foot-h">Help</h2>
+          <ul>
+            <li><a href="./#faq">Which camera? (FAQ)</a></li>
+            <li><a href="./#about">About SENSOR</a></li>
+            <li><a href="./#contact">Contact</a></li>
+            <li><a href="#shipping">Shipping across Europe</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><button type="button" class="foot-link" data-cookie-settings>Cookie settings</button></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="foot-pay">
+      <p class="foot-h">Ways to pay</p>
+      <ul class="foot-pay-list">
+        <li>Invoice for businesses</li>
+        <li>PayPal</li>
+        <li>Prepayment</li>
+      </ul>
+      <div class="foot-lang" role="group" aria-label="Language" data-no-i18n>
+        <button type="button" aria-pressed="false" data-lang="de">Deutsch</button>
+        <button type="button" aria-pressed="true" data-lang="en">English</button>
+        <button type="button" aria-pressed="false" data-lang="nl">Nederlands</button>
+        <button type="button" aria-pressed="false" data-lang="fr">Français</button>
+      </div>
+    </div>
+
+    <div class="foot-legal">
+      <ul>
+        <li><a href="#impressum">Impressum</a></li>
+        <li><a href="#datenschutz">Datenschutz</a></li>
+        <li><a href="#agb">AGB</a></li>
+        <li><a href="#widerruf">Widerrufsbelehrung</a></li>
+      </ul>
+      <p class="credits">Pictures: deer in mist by Paul Earle (Unsplash licence); <a href="https://commons.wikimedia.org/w/index.php?curid=120887281">“Roe Deer at dusk”</a> by Forza1000, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; <a href="https://commons.wikimedia.org/w/index.php?curid=193370253">“Vintage electrical switchboard”</a> by A S M Jobaer, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; <a href="https://www.flickr.com/photos/200871378@N03/53833977372">“two-story-home-lit-windows”</a> by vcmxnajg1, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>; firefighter in smoke by Francesco Sommacal (Pexels licence); rooms (kitchen, bathroom, living room) and outside views (house front, solar roof, heat pump) from Pexels (Pexels licence); team photos SENSOR GmbH; product pictures HIKMICRO; cameras in use and thermal pictures from jobs by SENSOR GmbH and HIKMICRO. Thermal views are simulated, 3D cameras are illustrations.</p>
+    </div>
+  </footer>
+
+  <!-- Cookie choice -->
+  <div class="cookie" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-text" data-cookie hidden>
+    <p id="cookie-title" class="cookie-title">Cookies</p>
+    <p id="cookie-text" class="cookie-text">We use necessary cookies to run the shop. With your OK we also count visits to make it better. <a href="#datenschutz">Privacy</a></p>
+    <div class="cookie-actions">
+      <button class="btn btn-small cookie-btn" type="button" data-cookie-choice="necessary">Only necessary</button>
+      <button class="btn btn-small cookie-btn" type="button" data-cookie-choice="all">Accept all</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script src="assets/js/catalog.js?v=70"></script>
+  <script src="assets/js/data.js?v=81"></script>
+  <script src="assets/js/main.js?v=81"></script>
+  <script src="assets/js/field.js?v=70"></script>
+  <script src="assets/js/panels.js?v=81"></script>
+  <script src="assets/js/services.js?v=75"></script>
+  <script src="assets/js/site.js?v=75"></script>
+  <script src="assets/js/cart.js?v=81"></script>
+  <script src="assets/js/faq.js?v=70"></script>
+  <script src="assets/js/chat-knowledge.js?v=81"></script>
+  <script src="assets/js/chat.js?v=81"></script>
+  <script type="module" src="assets/js/wall3d.js?v=80"></script>
+  <script type="module" src="assets/js/screen3d.js?v=80"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+ {
+  "file": "assets/img/scene-outdoor.jpg",
+  "media": "image",
+  "ref": "openverse:180877ba-e93b-48d6-a020-f4e52119446e",
+  "title": "Roe Deer at dusk",
+  "creator": "Forza1000",
+  "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Forza1000&action=edit&redlink=1",
+  "date": null,
+  "license": "CC BY-SA 4.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/w/index.php?curid=120887281",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Roe_Deer_at_dusk.jpg/1920px-Roe_Deer_at_dusk.jpg",
+  "width": 1920,
+  "height": 1768,
+  "bytes": 582069,
+  "credit": "\"Roe Deer at dusk\" by Forza1000, CC BY-SA 4.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-11-10T11:36:38.293Z"
+ },
+ {
+  "file": "assets/img/scene-industry.jpg",
+  "media": "image",
+  "ref": "openverse:f3b6013c-5810-4a44-9bcc-a1d7eca573cd",
+  "title": "Vintage electrical switchboard with ceramic fuses and toggle switches, Bangladesh 2026",
+  "creator": "A S M Jobaer",
+  "creatorUrl": "https://commons.wikimedia.org/wiki/User:A_S_M_Jobaer",
+  "date": null,
+  "license": "CC BY-SA 4.0",
+  "licenseCode": "by-sa",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "creditRequired": true,
+  "page": "https://commons.wikimedia.org/w/index.php?curid=193370253",
+  "via": "Wikimedia Commons",
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Vintage_electrical_switchboard_with_ceramic_fuses_and_toggle_switches%2C_Bangladesh_2026.jpg/1920px-Vintage_electrical_switchboard_with_ceramic_fuses_and_toggle_switches%2C_Bangladesh_2026.jpg",
+  "width": 1920,
+  "height": 1280,
+  "bytes": 430920,
+  "credit": "\"Vintage electrical switchboard with ceramic fuses and toggle switches, Bangladesh 2026\" by A S M Jobaer, CC BY-SA 4.0, via Wikimedia Commons",
+  "notes": [
+   "Share-alike: an altered version (recoloured, combined with other pictures) must be shared under the same licence."
+  ],
+  "saved": "2026-11-10T11:36:44.575Z"
+ },
+ {
+  "file": "assets/img/scene-building.jpg",
+  "media": "image",
+  "ref": "openverse:2236137d-7968-4f5f-9287-7ed26ea199ae",
+  "title": "two-story-home-lit-windows (Creative Commons)",
+  "creator": "vcmxnajg1",
+  "creatorUrl": "https://www.flickr.com/photos/200871378@N03",
+  "date": null,
+  "license": "CC BY 2.0",
+  "licenseCode": "by",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "creditRequired": true,
+  "page": "https://www.flickr.com/photos/200871378@N03/53833977372",
+  "via": "Flickr",
+  "image": "https://live.staticflickr.com/65535/53833977372_15c81d9a0c_b.jpg",
+  "width": 1024,
+  "height": 682,
+  "bytes": 222728,
+  "credit": "\"two-story-home-lit-windows (Creative Commons)\" by vcmxnajg1, CC BY 2.0, via Flickr",
+  "notes": [],
+  "saved": "2026-11-10T11:37:57.745Z"
+ }
+]
