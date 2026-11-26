@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SENSOR Academy – thermal imaging training online and in Mönchengladbach</title>
+  <meta name="description" content="Learn thermal imaging from the people who calibrate and repair HIKMICRO cameras: a personal introduction with every camera, free videos, and courses online, in Mönchengladbach or at your site.">
+  <meta name="theme-color" content="#1b1b1e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@300;400&family=Stack+Sans+Text:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/academy/sensor-hero.jpg">
+  <link rel="stylesheet" href="assets/css/main.css?v=95">
+  <link rel="stylesheet" href="assets/css/academy.css?v=77">
+  <script src="assets/js/i18n.js?v=92"></script>
+</head>
+<body class="ac">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <filter id="ironbow" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="0.3 0.59 0.11 0 0  0.3 0.59 0.11 0 0  0.3 0.59 0.11 0 0  0 0 0 1 0"/>
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="0.02 0.13 0.36 0.66 0.85 0.94 0.98 0.99 1"/>
+        <feFuncG type="table" tableValues="0.01 0.04 0.05 0.07 0.14 0.35 0.65 0.89 1"/>
+        <feFuncB type="table" tableValues="0.07 0.31 0.47 0.42 0.18 0.10 0.12 0.48 1"/>
+      </feComponentTransfer>
+    </filter>
+  </svg>
+
+  <header class="nav">
+    <a class="logo" href="./" aria-label="HIKMICRO Online Shop by SENSOR GmbH, back to the start">
+      <img src="assets/brand/hikmicro-logo.svg" width="170" height="40" alt="HIKMICRO">
+      <span class="logo-sub" data-no-i18n>Online Shop · powered by SENSOR GmbH</span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="./#outdoor">Outdoor</a></li>
+        <li><a href="./#building">Building</a></li>
+        <li><a href="./#industry">Industrial</a></li>
+        <li><a href="./#fire">Fire service</a></li>
+        <li><a href="./#services">Service</a></li>
+        <li><a href="academy.html" aria-current="page">Academy</a></li>
+        <li><a href="./#about">About us</a></li>
+      </ul>
+      <span class="nav-glide" aria-hidden="true"></span>
+    </nav>
+    <div class="nav-end">
+      <div class="lang" data-lang-switch data-no-i18n>
+        <button class="lang-btn" type="button" data-lang-btn aria-haspopup="true" aria-expanded="false" aria-label="Language"><span data-lang-current>EN</span><svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button>
+        <div class="lang-menu" data-lang-menu hidden>
+          <a href="#" data-lang="en" lang="en"><b>EN</b>English</a>
+          <a href="#" data-lang="de" lang="de"><b>DE</b>Deutsch</a>
+          <a href="#" data-lang="nl" lang="nl"><b>NL</b>Nederlands</a>
+          <a href="#" data-lang="fr" lang="fr"><b>FR</b>Français</a>
+        </div>
+      </div>
+      <button class="nav-quote" type="button" data-open-form="quote">Request a quote</button>
+      <a class="nav-cart" href="./#cart" aria-label="Cart, 0 items">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Zm3 0V6a3 3 0 0 1 6 0v1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero: a training photo, with a thermal lens that follows the pointer -->
+    <section class="ac-hero" aria-labelledby="ac-title" data-lens>
+      <div class="ac-hero-media" aria-hidden="true">
+        <img class="ac-hero-photo" src="assets/img/academy/sensor-hero.jpg" width="1600" height="1387" alt="">
+        <span class="ac-hero-heat" data-lens-heat><img src="assets/img/academy/sensor-hero.jpg" width="1600" height="1387" alt=""></span>
+        <span class="ac-lens-ring" data-lens-ring><span data-lens-temp>36.4 °C</span></span>
+      </div>
+      <div class="ac-hero-scrim" aria-hidden="true"></div>
+      <div class="ac-hero-copy">
+        <p class="ac-kicker">SENSOR Academy</p>
+        <h1 id="ac-title" class="ac-title" data-split>Learn to read heat like a pro.</h1>
+        <p class="ac-lead">Training from the people who set up, calibrate and repair HIKMICRO cameras every day. Online, in a rented seminar room in Mönchengladbach, or at your site.</p>
+        <div class="ac-actions">
+          <a class="btn btn-primary" href="#courses">Plan your course</a>
+          <a class="btn btn-glass" href="#videos"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Watch free videos</a>
+        </div>
+      </div>
+      <ul class="ac-hero-facts" aria-label="At a glance">
+        <li><b>3 ways</b><span>Online, in a seminar room, at your site</span></li>
+        <li><b>3 h – 3 days</b><span>From a short call to a full course</span></li>
+        <li><b>Every camera</b><span>Comes with a personal introduction</span></li>
+      </ul>
+      <p class="ac-lens-hint" aria-hidden="true">Move over the photo to see it in thermal</p>
+    </section>
+
+    <!-- Promise: a person behind every camera -->
+    <section class="ac-promise" aria-labelledby="promise-title">
+      <div class="ac-promise-text" data-reveal>
+        <h2 id="promise-title" class="ac-h2">Every camera comes with a person.</h2>
+        <p class="ac-big">A thermal camera is only as good as the person reading the picture. That is why we do not just send you a box.</p>
+        <p>Whichever camera you buy from us, from the Mini X on your phone to the SP120, one of our experts shows you how to use it properly: the right settings, emissivity and distance, how to tell a real fault from a reflection, and how to turn a picture into a clear report.</p>
+        <p>And when you are standing in front of a switchboard or a damp wall and are not sure what you see, you call us. The same people who trained you pick up the phone.</p>
+      </div>
+      <div class="ac-promise-media" data-reveal>
+        <figure class="ac-shot ac-shot-a"><img src="assets/img/academy/sensor-m30-panel.jpg" width="1140" height="1534" loading="lazy" alt="A SENSOR trainer checks the fuses of an old switchboard with an M30"></figure>
+        <figure class="ac-shot ac-shot-b"><img src="assets/img/field/cabinet-ir.jpg" width="505" height="316" loading="lazy" alt="Thermal picture of a control cabinet with one warm terminal"></figure>
+        <figure class="ac-shot ac-shot-c"><img src="assets/img/academy/sensor-compressor.jpg" width="1600" height="1200" loading="lazy" alt="A SENSOR camera checks a compressor room"></figure>
+      </div>
+      <ol class="ac-steps">
+        <li data-reveal><span class="ac-step-n">01</span><b>Personal introduction</b><p>When your camera arrives, we walk you through it, online or in person.</p></li>
+        <li data-reveal><span class="ac-step-n">02</span><b>Practice on real cases</b><p>Pictures from jobs we have done: heat loss, damp, loose contacts, worn bearings.</p></li>
+        <li data-reveal><span class="ac-step-n">03</span><b>Help after the course</b><p>Questions from the field by phone, email or WhatsApp, from the people who know your camera.</p></li>
+      </ol>
+    </section>
+
+    <!-- Who teaches -->
+    <section class="ac-people" aria-labelledby="people-title">
+      <figure class="ac-people-photo" data-reveal>
+        <img src="assets/img/about/team-2025.webp" width="1049" height="823" loading="lazy" alt="The SENSOR team in Mönchengladbach">
+        <figcaption>The SENSOR team, 2025</figcaption>
+      </figure>
+      <div class="ac-people-text" data-reveal>
+        <h2 id="people-title" class="ac-h2">Taught by the people who repair the cameras.</h2>
+        <p>Our trainers are not presenters. They calibrate cameras in our own lab, repair them in our workshop and go out on jobs with customers. Measuring technology has been our family business since 1990.</p>
+        <p>So you learn what the manual leaves out: why a shiny pipe looks cold, when a warm spot is normal, and which setting saves you a second trip to the site.</p>
+        <a class="ac-link" href="./#about">Meet the SENSOR team</a>
+      </div>
+    </section>
+
+    <!-- What you can learn -->
+    <section class="ac-topics" aria-labelledby="topics-title">
+      <div class="ac-head" data-reveal>
+        <h2 id="topics-title" class="ac-h2">Pick what you need to see.</h2>
+        <p class="ac-big">Every course is built around your work and your camera. These are the four topics most people start with.</p>
+      </div>
+      <ul class="ac-topic-list">
+        <li class="ac-topic" data-reveal>
+          <img src="assets/img/field/facade-ir.jpg" width="505" height="316" loading="lazy" alt="Thermal picture of a house facade">
+          <div class="ac-topic-body">
+            <h3>Buildings and energy</h3>
+            <ul><li>Heat loss, thermal bridges and air leaks</li><li>Damp and mould before they show</li><li>Underfloor heating and hidden pipes</li><li>Clear reports for owners and authorities</li></ul>
+          </div>
+        </li>
+        <li class="ac-topic" data-reveal>
+          <img src="assets/img/field/busbar-ir.jpg" width="505" height="316" loading="lazy" alt="Thermal picture of busbars in a switchboard">
+          <div class="ac-topic-body">
+            <h3>Electrical and industry</h3>
+            <ul><li>Switchboards, fuses and loose contacts</li><li>Motors, bearings and drives</li><li>Safe distance and the right lens</li><li>Inspection rounds and trend checks</li></ul>
+          </div>
+        </li>
+        <li class="ac-topic" data-reveal>
+          <img class="is-thermal" src="assets/img/panel-outdoor.jpg" width="1600" height="1600" loading="lazy" alt="Deer in a field, shown in thermal">
+          <div class="ac-topic-body">
+            <h3>Outdoor and hunting</h3>
+            <ul><li>Spotting game at dusk and at night</li><li>Palettes, zoom and range in the field</li><li>Finding game after the shot</li><li>Using the camera in rain and cold</li></ul>
+          </div>
+        </li>
+        <li class="ac-topic" data-reveal>
+          <img src="assets/img/field/pocket-lab.jpg" width="1136" height="590" loading="lazy" alt="A HIKMICRO camera connected to analysis software on a laptop">
+          <div class="ac-topic-body">
+            <h3>Software and reports</h3>
+            <ul><li>HIKMICRO Analyzer step by step</li><li>Measuring points, areas and lines</li><li>Report templates for your company</li><li>Apps, Wi-Fi and sharing on site</li></ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Free videos -->
+    <section class="ac-videos" id="videos" aria-labelledby="videos-title">
+      <div class="ac-head" data-reveal>
+        <h2 id="videos-title" class="ac-h2">Free videos. Learn at your own pace.</h2>
+        <p class="ac-big">Short lessons on our YouTube channel, from the first switch-on to your first report. <span class="demo-tag">Demo</span></p>
+      </div>
+      <div class="ac-video-grid">
+        <a class="ac-video ac-video-main" href="#video" data-video="first-steps" data-reveal>
+          <span class="ac-video-thumb"><img src="assets/img/field/pocket-window.jpg" width="1600" height="1200" loading="lazy" alt=""></span>
+          <span class="ac-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+          <span class="ac-video-time">8:40</span>
+          <span class="ac-video-text"><span class="ac-video-tag">Start here</span><b>Your first hour with a thermal camera</b><span>Switch on, focus, palettes and your first measurement.</span></span>
+        </a>
+        <a class="ac-video" href="#video" data-video="emissivity" data-reveal>
+          <span class="ac-video-thumb"><img src="assets/img/field/pipes-ir.jpg" width="473" height="240" loading="lazy" alt=""></span>
+          <span class="ac-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+          <span class="ac-video-time">3:15</span>
+          <span class="ac-video-text"><b>Emissivity in three minutes</b><span>Why shiny metal lies, and how to fix it.</span></span>
+        </a>
+        <a class="ac-video" href="#video" data-video="facade" data-reveal>
+          <span class="ac-video-thumb"><img src="assets/img/field/reel-4.jpg" width="505" height="316" loading="lazy" alt=""></span>
+          <span class="ac-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+          <span class="ac-video-time">6:02</span>
+          <span class="ac-video-text"><b>Finding heat loss on a house</b><span>The right time of day, and what to look for.</span></span>
+        </a>
+        <a class="ac-video" href="#video" data-video="switchboard" data-reveal>
+          <span class="ac-video-thumb"><img src="assets/img/field/room-1.jpg" width="505" height="304" loading="lazy" alt=""></span>
+          <span class="ac-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+          <span class="ac-video-time">5:28</span>
+          <span class="ac-video-text"><b>Checking a switchboard safely</b><span>Load, distance and what counts as too hot.</span></span>
+        </a>
+        <a class="ac-video" href="#video" data-video="report" data-reveal>
+          <span class="ac-video-thumb"><img src="assets/img/field/pocket-lab.jpg" width="1136" height="590" loading="lazy" alt=""></span>
+          <span class="ac-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+          <span class="ac-video-time">7:45</span>
+          <span class="ac-video-text"><b>A report in ten minutes</b><span>From picture to PDF with HIKMICRO Analyzer.</span></span>
+        </a>
+      </div>
+      <p class="ac-videos-more"><a class="ac-link" href="#video" data-video="channel">All videos on YouTube</a></p>
+    </section>
+
+    <!-- Formats and prices: build your course -->
+    <section class="ac-plan" id="courses" aria-labelledby="plan-title" data-planner>
+      <div class="ac-head" data-reveal>
+        <h2 id="plan-title" class="ac-h2">Build your course.</h2>
+        <p class="ac-big">Choose how, how long and how many people. The price updates as you go. Businesses pay on invoice.</p>
+      </div>
+
+      <div class="ac-plan-body">
+        <form class="ac-plan-form" data-plan-form onsubmit="return false">
+          <fieldset class="ac-q">
+            <legend><span class="ac-q-n">1</span>Where?</legend>
+            <div class="ac-format">
+              <label class="ac-format-opt">
+                <input type="radio" name="format" value="online" checked>
+                <img src="assets/img/academy/online.jpg" width="1800" height="1200" loading="lazy" alt="">
+                <span class="ac-format-text"><b>Online live</b><span>Live in your browser with a trainer. Ask questions as you go.</span></span>
+              </label>
+              <label class="ac-format-opt">
+                <input type="radio" name="format" value="sensor">
+                <img src="assets/img/academy/sensor-seminar.jpg" width="1600" height="1013" loading="lazy" alt="">
+                <span class="ac-format-text"><b>Seminar room</b><span>In a rented seminar room in Mönchengladbach, with our cameras and test objects.</span></span>
+              </label>
+              <label class="ac-format-opt">
+                <input type="radio" name="format" value="site">
+                <img src="assets/img/academy/sensor-onsite.jpg" width="1600" height="1200" loading="lazy" alt="">
+                <span class="ac-format-text"><b>At your site</b><span>We come to you and train your team on your own buildings and machines.</span></span>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="ac-q">
+            <legend><span class="ac-q-n">2</span>How long?</legend>
+            <div class="ac-chips" data-chips="length">
+              <label><input type="radio" name="length" value="3h" checked><span><b>3 hours</b><small>The essentials</small></span></label>
+              <label><input type="radio" name="length" value="1d"><span><b>1 day</b><small>Theory and practice</small></span></label>
+              <label><input type="radio" name="length" value="2d"><span><b>2 days</b><small>The full course</small></span></label>
+              <label><input type="radio" name="length" value="3d"><span><b>3 days</b><small>Deep dive with reports</small></span></label>
+            </div>
+            <p class="ac-q-note" data-length-note></p>
+          </fieldset>
+
+          <fieldset class="ac-q">
+            <legend><span class="ac-q-n">3</span>How many people?</legend>
+            <div class="ac-chips" data-chips="group">
+              <label><input type="radio" name="group" value="1"><span><b>Just me</b><small>One to one</small></span></label>
+              <label><input type="radio" name="group" value="4" checked><span><b>2 – 4</b><small>A small team</small></span></label>
+              <label><input type="radio" name="group" value="8"><span><b>5 – 8</b><small>A department</small></span></label>
+              <label><input type="radio" name="group" value="12"><span><b>9 – 12</b><small>Largest group</small></span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="ac-q">
+            <legend><span class="ac-q-n">4</span>Anything else?</legend>
+            <div class="ac-extras">
+              <label class="ac-toggle" data-extra="food">
+                <input type="checkbox" name="food">
+                <span class="ac-toggle-ui" aria-hidden="true"></span>
+                <span class="ac-toggle-text"><b>Lunch and drinks</b><small data-food-note>Lunch, coffee and drinks all day</small></span>
+                <span class="ac-toggle-price" data-food-price></span>
+              </label>
+              <label class="ac-toggle" data-extra="cams">
+                <input type="checkbox" name="cams">
+                <span class="ac-toggle-ui" aria-hidden="true"></span>
+                <span class="ac-toggle-text"><b>Cameras for everyone</b><small>We bring a calibrated camera for each person</small></span>
+                <span class="ac-toggle-price" data-cams-price></span>
+              </label>
+              <label class="ac-toggle" data-extra="cert">
+                <input type="checkbox" name="cert" checked disabled>
+                <span class="ac-toggle-ui" aria-hidden="true"></span>
+                <span class="ac-toggle-text"><b>Certificate of attendance</b><small>For every participant</small></span>
+                <span class="ac-toggle-price">Included</span>
+              </label>
+            </div>
+          </fieldset>
+        </form>
+
+        <aside class="ac-summary" aria-labelledby="sum-title" aria-live="polite">
+          <div class="ac-summary-photo" aria-hidden="true"><img data-sum-photo src="assets/img/academy/online.jpg" width="1800" height="1200" alt=""></div>
+          <div class="ac-summary-body">
+            <p class="ac-summary-kicker"><span id="sum-title">Your course</span> <span class="demo-tag">Example prices</span></p>
+            <p class="ac-summary-name" data-sum-name>Online live · 3 hours</p>
+            <p class="ac-summary-who" data-sum-who>2 – 4 people</p>
+            <div class="ac-summary-price">
+              <span class="ac-summary-amount" data-sum-pp>€ 149</span>
+              <span class="ac-summary-unit" data-sum-unit>per person, excl. VAT</span>
+            </div>
+            <p class="ac-summary-total" data-sum-total>For 4 people: € 596 excl. VAT</p>
+            <ul class="ac-summary-inc" data-sum-inc></ul>
+            <button class="btn btn-primary ac-summary-btn" type="button" data-book>Request this course</button>
+            <p class="ac-summary-note">No payment now. We confirm the date and send a written offer.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- A day at the academy -->
+    <section class="ac-day" aria-labelledby="day-title">
+      <div class="ac-mist" aria-hidden="true"><img src="assets/img/academy/sensor-talk-ir.jpg" width="1183" height="726" alt="" loading="lazy" decoding="async"></div>
+      <div class="ac-head" data-reveal>
+        <h2 id="day-title" class="ac-h2">A day at the academy.</h2>
+        <p class="ac-big">More hands on the camera than eyes on the slides. This is how a one-day course in Mönchengladbach runs.</p>
+      </div>
+      <div class="ac-day-body">
+        <ol class="ac-timeline">
+          <li data-reveal><time>09:00</time><div><b>Coffee and your questions</b><p>What do you inspect, which camera do you use, what do you want to take home?</p></div></li>
+          <li data-reveal><time>09:30</time><div><b>How heat shows up</b><p>Radiation, emissivity, reflection and distance, explained with live pictures, not formulas.</p></div></li>
+          <li data-reveal><time>11:00</time><div><b>Hands on the camera</b><p>Settings, focus and palettes on real test objects: pipes, panels, a wall with a leak.</p></div></li>
+          <li data-reveal><time>12:30</time><div><b>Lunch together</b><p>Time to talk shop with the trainer and the others in your group.</p></div></li>
+          <li data-reveal><time>13:30</time><div><b>Out in the field</b><p>Around the venue and on our test objects: find the faults we have set up for you.</p></div></li>
+          <li data-reveal><time>15:30</time><div><b>Your own pictures and reports</b><p>Bring pictures from your work. We look at them together and build your first report.</p></div></li>
+          <li data-reveal><time>16:30</time><div><b>Certificate and next steps</b><p>You go home with a certificate, the course notes and a direct line to us.</p></div></li>
+        </ol>
+        <div class="ac-day-photos">
+          <figure data-reveal><img src="assets/img/academy/sensor-drives.jpg" width="820" height="1200" loading="lazy" alt="A trainee checks the drives in a control cabinet"></figure>
+          <figure data-reveal><img src="assets/img/academy/sensor-m30-close.jpg" width="1400" height="1120" loading="lazy" alt="The M30 shows a warm fuse in the switchboard"></figure>
+          <figure data-reveal><img src="assets/img/academy/sensor-lunch.jpg" width="800" height="480" loading="lazy" alt="Lunch at the table during a SENSOR training day"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Questions -->
+    <section class="ac-faq" aria-labelledby="ac-faq-title">
+      <div class="ac-head" data-reveal>
+        <h2 id="ac-faq-title" class="ac-h2">Good to know.</h2>
+      </div>
+      <div class="ac-faq-list">
+        <details class="faq-item" name="acfaq">
+          <summary>Do I need to know anything before I start?</summary>
+          <p>No. The 3-hour and 1-day courses start from zero. For the 2- and 3-day courses it helps if you have used a thermal camera before, but it is not a must.</p>
+        </details>
+        <details class="faq-item" name="acfaq">
+          <summary>Can I bring my own camera?</summary>
+          <p>Yes, please do. You learn fastest on the camera you will use every day. If you do not have one yet, add “Cameras for everyone” and we bring calibrated cameras for the group.</p>
+        </details>
+        <details class="faq-item" name="acfaq">
+          <summary>Does it matter which camera I have?</summary>
+          <p>We teach on every HIKMICRO camera we sell, from the Mini X on your phone to the SP series. Tell us your model when you book, and the course is set up for it.</p>
+        </details>
+        <details class="faq-item" name="acfaq">
+          <summary>In which languages do you teach?</summary>
+          <p>In German and English. Ask us about French.</p>
+        </details>
+        <details class="faq-item" name="acfaq">
+          <summary>How does the online course work?</summary>
+          <p>You join a live video call in your browser, nothing to install. The trainer shows the camera and the software on screen, and you try along with your own camera.</p>
+        </details>
+        <details class="faq-item" name="acfaq">
+          <summary>Can my company pay on invoice?</summary>
+          <p>Yes. You get a written offer first, and businesses pay on invoice after the course.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact ac-contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-head">
+        <h2 id="contact-title" class="contact-title">Not sure which course fits?</h2>
+        <p class="contact-lead">Tell us what you inspect and which camera you use. We suggest the right course and a date, without obligation.</p>
+        <button class="btn btn-primary" type="button" data-open-form="course">Ask about a course</button>
+      </div>
+      <ul class="contact-ways">
+        <li>
+          <a class="contact-way" href="tel:+4921614773973">
+            <span class="contact-kind">Call</span>
+            <span class="contact-value">+49 2161 477 39 73</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-way" href="#whatsapp" data-whatsapp>
+            <span class="contact-kind">WhatsApp</span>
+            <span class="contact-value">Number to follow</span>
+          </a>
+        </li>
+        <li>
+          <a class="contact-way" href="mailto:info@sensorgmbh.de">
+            <span class="contact-kind">Email</span>
+            <span class="contact-value">info@sensorgmbh.de</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Video window (demo: the YouTube video plays here in the finished shop) -->
+  <dialog class="ac-player" data-player aria-labelledby="player-title">
+    <div class="ac-player-inner">
+      <button class="drawer-close ac-player-close" type="button" data-player-close aria-label="Close">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      </button>
+      <div class="ac-player-screen">
+        <img data-player-img src="assets/img/field/pocket-window.jpg" width="1600" height="1200" alt="">
+        <span class="ac-video-play" aria-hidden="true"><svg viewBox="0 0 24 24" width="30" height="30"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg></span>
+      </div>
+      <div class="ac-player-text">
+        <h2 id="player-title" class="ac-player-title" data-player-title>Your first hour with a thermal camera</h2>
+        <p>In the finished shop the YouTube video plays right here. The videos are still to be filmed with the SENSOR team.</p>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- One drawer, a different form for each service -->
+  <dialog class="drawer" data-drawer aria-labelledby="drawer-title">
+    <form class="drawer-form" data-drawer-form novalidate>
+      <div class="drawer-head">
+        <h2 id="drawer-title" class="drawer-title" data-drawer-title>Request a course</h2>
+        <button class="drawer-close" type="button" data-drawer-close aria-label="Close">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        </button>
+      </div>
+      <p class="drawer-intro" data-drawer-intro></p>
+      <div class="drawer-fields" data-drawer-fields></div>
+      <div class="drawer-foot">
+        <button class="btn btn-primary" type="submit" data-drawer-submit>Send</button>
+        <p class="drawer-note">We answer within one working day.</p>
+      </div>
+      <div class="drawer-done" data-drawer-done hidden>
+        <p class="drawer-done-title">Thank you.</p>
+        <p data-drawer-done-text>Your request is in. In the finished shop it goes straight to the SENSOR team.</p>
+        <button class="btn btn-light" type="button" data-drawer-close>Close</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Assistant -->
+  <button class="chat-fab" type="button" data-chat-open aria-controls="chat" aria-expanded="false">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h11A2.5 2.5 0 0 1 20 5.5v8a2.5 2.5 0 0 1-2.5 2.5H10l-4.5 4v-4A2.5 2.5 0 0 1 3 13.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M8 8.5h8M8 11.5h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+    <span>Ask us</span>
+  </button>
+  <section class="chat" id="chat" data-chat aria-labelledby="chat-title" hidden>
+    <header class="chat-head">
+      <div>
+        <h2 id="chat-title" class="chat-title">SENSOR assistant</h2>
+        <p class="chat-sub"><span class="demo-tag">Demo</span> Knows every camera we sell, service and ordering</p>
+      </div>
+      <button class="chat-close" type="button" data-chat-close aria-label="Close the assistant">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      </button>
+    </header>
+    <div class="chat-consent" data-chat-consent>
+      <p class="chat-note"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg><span>Answers are written by an AI (Claude by Anthropic) and can be wrong. Your messages are sent to Anthropic to answer them. Please do not enter personal data.</span> <a href="#datenschutz">Privacy</a></p>
+      <button class="chat-agree" type="button" data-chat-agree>
+        <span class="chat-agree-title">I agree</span>
+        <span class="chat-agree-text">Start the chat with AI</span>
+      </button>
+    </div>
+    <div class="chat-log" data-chat-log aria-live="polite"></div>
+    <div class="chat-chips" data-chat-chips></div>
+    <form class="chat-form" data-chat-form>
+      <label class="sr-only" for="chat-input">Your question</label>
+      <input class="chat-input" id="chat-input" type="text" autocomplete="off" placeholder="Ask about cameras, resolution, service…" data-chat-input>
+      <button class="chat-send" type="submit" aria-label="Send">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M5 12h13m-5-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      </button>
+    </form>
+  </section>
+
+  <footer class="site-footer">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="assets/brand/hikmicro-logo.svg" width="170" height="40" alt="HIKMICRO">
+        <p>HIKMICRO distributor and service partner: SENSOR GmbH, Hermann-Hesse-Str. 16a, 41068 Mönchengladbach, Germany.</p>
+      </div>
+      <nav class="foot-cols" aria-label="Footer">
+        <div>
+          <h2 class="foot-h">Cameras</h2>
+          <ul>
+            <li><a href="./#outdoor">Outdoor &amp; hunting</a></li>
+            <li><a href="./#building">Building</a></li>
+            <li><a href="./#industry">Industry</a></li>
+            <li><a href="./#fire">Fire service</a></li>
+            <li><a href="./#accessories">Batteries &amp; lenses</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="foot-h">Service</h2>
+          <ul>
+            <li><a href="./#services">Calibration</a></li>
+            <li><a href="./#services">Repair &amp; returns</a></li>
+            <li><a href="./#services">Rental</a></li>
+            <li><a href="academy.html">SENSOR Academy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="foot-h">Help</h2>
+          <ul>
+            <li><a href="./#faq">Which camera? (FAQ)</a></li>
+            <li><a href="./#about">About SENSOR</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#shipping">Shipping across Europe</a></li>
+            <li><a href="#downloads">Downloads</a></li>
+            <li><button type="button" class="foot-link" data-cookie-settings>Cookie settings</button></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="foot-pay">
+      <p class="foot-h">Ways to pay</p>
+      <ul class="foot-pay-list">
+        <li>Invoice for businesses</li>
+        <li>PayPal</li>
+        <li>Prepayment</li>
+      </ul>
+      <div class="foot-lang" role="group" aria-label="Language" data-no-i18n>
+        <button type="button" aria-pressed="false" data-lang="de">Deutsch</button>
+        <button type="button" aria-pressed="true" data-lang="en">English</button>
+        <button type="button" aria-pressed="false" data-lang="nl">Nederlands</button>
+        <button type="button" aria-pressed="false" data-lang="fr">Français</button>
+      </div>
+    </div>
+
+    <div class="foot-legal">
+      <ul>
+        <li><a href="#impressum">Impressum</a></li>
+        <li><a href="#datenschutz">Datenschutz</a></li>
+        <li><a href="#agb">AGB</a></li>
+        <li><a href="#widerruf">Widerrufsbelehrung</a></li>
+      </ul>
+      <p class="credits">Pictures: training, classroom, online, roof, group, workshop and lunch photos from Pexels (Pexels licence), stand-ins until SENSOR's own photos arrive; deer in mist by Paul Earle (Unsplash licence); team photo SENSOR GmbH; cameras in use and thermal pictures from jobs by SENSOR GmbH and HIKMICRO. Video lengths and prices are examples.</p>
+    </div>
+  </footer>
+
+  <div class="cookie" role="dialog" aria-labelledby="cookie-title" aria-describedby="cookie-text" data-cookie hidden>
+    <p id="cookie-title" class="cookie-title">Cookies</p>
+    <p id="cookie-text" class="cookie-text">We use necessary cookies to run the shop. With your OK we also count visits to make it better. <a href="#datenschutz">Privacy</a></p>
+    <div class="cookie-actions">
+      <button class="btn btn-small cookie-btn" type="button" data-cookie-choice="necessary">Only necessary</button>
+      <button class="btn btn-small cookie-btn" type="button" data-cookie-choice="all">Accept all</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+  <script src="assets/js/catalog.js?v=70"></script>
+  <script src="assets/js/data.js?v=84"></script>
+  <script src="assets/js/services.js?v=75"></script>
+  <script src="assets/js/site.js?v=75"></script>
+  <script src="assets/js/cart.js?v=81"></script>
+  <script src="assets/js/academy.js?v=83"></script>
+  <script src="assets/js/chat-knowledge.js?v=81"></script>
+  <script src="assets/js/chat.js?v=86"></script>
+</body>
+</html>
